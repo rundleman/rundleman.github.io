@@ -1,0 +1,13 @@
+body { 
+	padding-top: 70px; 
+}
+article {
+	background-color: #999999;
+	margin-bottom: 30px;
+}
+#nav-list > li {
+	border-bottom: 1px solid black;
+}
+#nav-list{
+	margin:0;
+}
