@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Написать письмо</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <img src="img/logo/rung-logo.svg" alt="rung.pro">
+    <nav>
+        <div><a href="index.html">Блог</a></div>
+        <div><a href="projects.html">Проекты</a></div>
+        <div><a href="materials.html">Материалы</a></div>
+        <div><a href="about.html">Обо мне</a></div>
+        <div><a href="contacts.html" class="active">Письмо</a></div>
+    </nav>
+</header>
+<main>
+    <h1 class="contacts-header">Отправьте мне письмо</h1>
+    <form class="feedback" action="https://formspree.io/rundle@yandex.ru" method="POST">
+        <div><label for="name">Имя:</label>
+            <input type="text" id="name" name="name" value="" maxlength="150" autofocus>
+            <p class="description">Напишите своё имя.</p></div>
+
+        <div><label for="email">Контакт:</label>
+            <input type="text" id="email" name="email" value="" maxlength="150">
+            <p class="description">Напишите любой свой контакт для обратной связи<span>, это может быть адрес электронной почты или skype или любой другой удобный для вас способ</span>.
+            </p></div>
+
+        <div><label for="message">Сообщение:</label></div>
+        <div><textarea id="message" name="message" rows="7" cols="53"></textarea>
+            <p class="description">Рассмотрю любые вопросы и предложения.</p></div>
+
+        <div class="actions">
+            <input type="submit" class="button" value="Отправить">
+            <em>все поля НЕобязательные:)</em>
+        </div>
+    </form>
+</main>
+<footer>
+    <div class="copyright">
+        &copy; 2016&mdash;2017 <a href="about.html">Dmitry Kuzmin</a>.
+        <span>Контент распространяется под лицензией
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru" target="_blank">Creative Commons (CC BY-NC-SA 4.0)</a></span>
+    </div>
+</footer>
+</body>
+</html>
