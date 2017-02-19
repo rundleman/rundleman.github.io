@@ -22,21 +22,21 @@
     <h1 class="contacts-header">Отправьте мне письмо</h1>
     <form class="feedback" action="https://formspree.io/rundle@yandex.ru" method="POST">
         <div><label for="name">Имя:</label>
-            <input type="text" id="name" name="name" value="" maxlength="150" autofocus>
+            <input type="text" id="name" name="name" value="" maxlength="150" required autofocus>
             <p class="description">Напишите своё имя.</p></div>
 
         <div><label for="email">Контакт:</label>
-            <input type="text" id="email" name="email" value="" maxlength="150">
-            <p class="description">Напишите любой свой контакт для обратной связи<span>, это может быть адрес электронной почты или skype или любой другой удобный для вас способ</span>.
+            <input type="text" id="email" name="_replyto" maxlength="150" required>
+            <p class="description">Напишите адрес электронной почты.
             </p></div>
 
         <div><label for="message">Сообщение:</label></div>
-        <div><textarea id="message" name="message" rows="7" cols="53"></textarea>
+        <div><textarea id="message" name="message" rows="7" cols="53" required></textarea>
             <p class="description">Рассмотрю любые вопросы и предложения.</p></div>
 
         <div class="actions">
             <input type="submit" class="button" value="Отправить">
-            <em>все поля НЕобязательные:)</em>
+            <em>все поля обязательные</em>
         </div>
     </form>
 </main>
