@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>menu_burger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Store" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.799999952">
+        <path d="M0,0 L18,0 L18,2 L0,2 L0,0 Z M0,6 L18,6 L18,8 L0,8 L0,6 Z M0,12 L18,12 L18,14 L0,14 L0,12 Z" id="menu_burger" fill="#393939"></path>
+    </g>
+</svg>

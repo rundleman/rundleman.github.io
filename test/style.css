@@ -1,0 +1,215 @@
+@font-face {
+    font-family: Gerbera;
+    src: url(/fonts/Gerbera.otf) format("opentype");
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Gerbera, sans-serif;
+    background-color: #f0f1f2;
+    margin: 0;
+}
+.wrapper{
+    width: 1024px;
+}
+h2{
+    font-size: 16px;
+    text-align: left;
+    color: #393939;
+}
+h3{
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #393939;
+    margin: 0;
+}
+/* Header */
+header{
+    position: fixed;
+    min-height: 80px;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    z-index: 2;
+    background-color: #f0f1f2;
+}
+.close{
+    width: 80px;
+    height: 80px;
+    background: url(icons/close_15-14.svg) no-repeat center;
+    border-right: 1px solid #dddddd;
+}
+.bag{
+    width: 80px;
+    height: 80px;
+    background: url(icons/bag.svg) no-repeat center;
+    border-left: 1px solid #dddddd;
+    text-align: center;
+    padding-top: 50px;
+}
+header input{
+    width: 864px;
+    background-color: #f0f1f2;
+    border: 0;
+    background: url(icons/search.svg) no-repeat left center;
+    padding-left: 80px;
+    background-position-x: 40px;
+}
+/* Aside */
+aside{
+    float: left;
+    width: 384px;
+    margin-top: 80px;
+}
+aside>ul>li{
+    list-style: none;
+    padding-left: 30px;
+    margin: 20px 0;
+}
+aside>ul>li:nth-child(3n+1){
+    background: url(icons/meat_icon.svg) no-repeat left center;
+}
+aside>ul>li:nth-child(3n+2){
+    background: url(icons/bird_icon.svg) no-repeat left center;
+}
+aside>ul>li:nth-child(3n+3){
+    background: url(icons/fish_icon.svg) no-repeat left center;
+}
+/* Main */
+main{
+    float: right;
+    width: 639px;
+    margin-top: 80px;
+    border-left: 1px solid #dddddd;
+    padding-left: 30px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    height: 100vh;
+}
+main>section>div{
+    background-color: rgba(255, 255, 255, 0.6);;
+}
+.name-of-area{
+    opacity: 0.7;
+    font-size: 11px;
+    color: #393939;
+}
+.number-of-products{
+    font-size: 13px;
+    color: #393939;
+}
+.block-of-section{
+    overflow: hidden;
+    padding: 10px;
+    margin: 2px 0;
+    display: flex;
+    align-items: center;
+}
+.block-of-section img{
+    margin-right: 10px;
+}
+.block-of-section>div:nth-of-type(1){
+    flex-grow: 1;
+}
+.block-of-section>div:nth-of-type(2){
+    margin-right: 5px;
+}
+.fermers img{
+    border-radius: 30px;
+}
+.number-of-kilo{
+    font-size: 14px;
+    color: #393939;
+}
+.unit-of-kilo{
+    font-size: 10px;
+    font-weight: bold;
+    color: #393939;
+}
+/* MobileHeader */
+footer {
+    clear: both;
+    border-top: 1px solid #dddddd;
+    padding: 5px 20px;
+}
+footer p{
+    opacity: 0.8;
+    font-size: 14px;
+    line-height: 1.57;
+    color: #393939;
+}
+.mobile-body{
+
+}
+.mobile-wrapper{
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+.main{
+    flex: 1;
+}
+.mobile-aside>ul>li:nth-child(4){
+    background: none;
+}
+.mobile-aside ul ul{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+    color: #393939;
+    list-style: none;
+}
+.mobile-aside ul ul li:nth-child(5){
+    color: #42759a;
+    list-style: circle;
+}
+.mobile-aside>ul>li:nth-child(3){
+    color: #42759a;
+    background: url(icons/fish_icon_color.svg) no-repeat left center;
+}
+.bag span{
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.47;
+    color: #393939;
+}
+.search-main{
+    float: none;
+    width: auto;
+}
+.mobile-search-none{
+    display: none;
+}
+.mobile-block{
+    flex-direction: row-reverse;
+}
+@media (min-width: 768px) {
+    .mobile-wrapper{
+        width: 768px;
+        margin: 0 auto;
+        background-color: #f0f1f2;
+    }
+    .mobile-input{
+        width: 608px;
+    }
+    .mobile-body{
+        background-color: white;
+    }
+    .mobile-aside{
+         background-color: #f0f1f2;
+         width: 768px;
+    }
+}
+@media (max-width: 768px) {
+    header input {
+        width: auto;
+        flex-grow: 1;
+    }
+    header {
+        position: static;
+    }
+    aside{
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="13px" viewBox="0 0 11 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>mini_pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.799999952">
+        <g id="FirmaFerma_FarmerPage_OK" transform="translate(-312.000000, -396.000000)" fill="#393939">
+            <g id="Group-7" transform="translate(312.000000, 396.000000)">
+                <path d="M5.29796087,7.1712785 C4.29819959,7.1712785 3.48764258,6.36096914 3.48764258,5.36096021 C3.48764258,4.36119894 4.29819959,3.55088958 5.29796087,3.55088958 C6.29772214,3.55088958 7.10827915,4.36119894 7.10827915,5.36096021 C7.10827915,6.36096914 6.29772214,7.1712785 5.29796087,7.1712785 M5.29826074,0.5 C2.65248519,0.5 0.5,2.65758303 0.5,5.30935602 C0.5,8.80317115 4.79597421,12.0936727 4.97919634,12.2418097 L5.29796087,12.5 L5.61672539,12.2418097 C5.79964765,12.0936727 10.0959217,8.80287128 10.0959217,5.30935602 C10.0962216,2.65758303 7.94373641,0.5 5.29826074,0.5" id="mini_pin"></path>
+            </g>
+        </g>
+    </g>
+</svg>
