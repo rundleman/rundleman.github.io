@@ -21,14 +21,10 @@ export function asyncComponent(importComponent) {
 
     render() {
       const C = this.state.component;
-      console.log("​AsyncComponent -> render -> C", C);
-      // console.log("​AsyncComponent -> render -> ", <PageAbout />);
-      // console.log("​AsyncComponent -> render -> ", PageAbout);
 
       return C ? <C /> : null;
     }
   }
 
-  console.log("​asyncComponent -> AsyncComponent", AsyncComponent);
   return AsyncComponent;
 }

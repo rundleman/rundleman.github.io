@@ -1,18 +1,8 @@
 import * as React from "react";
 import { PageLayout } from "components";
-// import { Link } from "react-router-dom";
-// import { setDescription } from "utils/setDescription";
 import { Helmet } from "react-helmet";
 
 export class PageMain extends React.Component {
-  // componentDidMount() {
-  //   document.title =
-  //     "Блог о фронтенд разработке - инструменты, книги и не только";
-  //   setDescription(
-  //     "Различные статьи и фронтентд разработке, актуальный материал, обзоры на новые книги и инструменты"
-  //   );
-  // }
-
   render() {
     return (
       <div>
@@ -20,10 +10,12 @@ export class PageMain extends React.Component {
           <title>
             Блог о фронтенд разработке - инструменты, книги и не только
           </title>
-          <meta name="description" content="Различные статьи и фронтентд разработке, актуальный материал, обзоры на новые книги и инструменты" />
+          <meta
+            name="description"
+            content="Различные статьи и фронтентд разработке, актуальный материал, обзоры на новые книги и инструменты"
+          />
         </Helmet>
         <PageLayout>
-          {/* <Link to="/vscode">VS Code</Link> */}
           <ul>
             <li>
               <h2>Будущие статьи</h2>
@@ -57,7 +49,7 @@ export class PageMain extends React.Component {
             </li>
           </ul>
         </PageLayout>
-</div>
+      </div>
     );
   }
 }
