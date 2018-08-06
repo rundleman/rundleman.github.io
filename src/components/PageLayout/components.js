@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  background-image: url(${require("./img/bg-pattern.png")});
+  /* background-image: url(${require("./img/bg-pattern.png")}); */
   background-repeat: repeat;
   display: flex;
   flex-direction: column;
