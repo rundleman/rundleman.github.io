@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": “ru.pik-comfort.Resident-Cabinet",
+        "paths": [
+          "/signin/ios-app/"
+        ]
+      }
+    ]
+  }
+}
