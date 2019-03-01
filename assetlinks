@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "apiqa.ru.residentcabinetandroid",
+      "sha256_cert_fingerprints": [
+        "2D:A4:EC:AB:D2:A5:5D:5F:29:3C:18:6A:C0:CC:03:DB:18:2F:FE:6D:7C:39:60:C8:A6:34:7D:5E:86:CF:2A:DB",
+        "82:4E:66:00:42:61:43:A5:39:F8:40:AB:2B:DA:E0:77:31:37:77:5B:71:41:86:6C:25:EE:1B:BB:5A:09:79:16"
+      ]
+    }
+  }
+]
