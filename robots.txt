@@ -1,3 +1,0 @@
-User-agent: *
-Host: rung.pro
-Sitemap: https://rung.pro/sitemap.xml
