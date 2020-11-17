@@ -1,14 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Гексагональная решётка</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/sanitize.css/2.0.0/sanitize.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>Hello!</h1>
+  <main>
+    <h1>Гексагональная решётка</h1>
+    <section class="map-settings">
+      <h2>Введите размер решётки:</h2>
+      <div>
+        <label>L = <input type="number" min="1" max="30" name="l"
+            class="map-settings-input"></label>
+        <label>N = <input type="number" min="1" max="30" name="m"
+            class="map-settings-input"></label>
+        <label>M = <input type="number" min="1" max="30" name="n"
+            class="map-settings-input"></label>
+        <button class="show-map-btn">Показать решётку</button>
+      </div>
+      <div>
+        <button class="count-domains">Посчитать домены</button>
+        Количество доменов: <span class="count-domains-result"></span>
+      </div>
+      <div>
+        <span>Вероятность единицы: </span><input type="text"
+          class="map-auto-filling-input">
+        <button class="map-auto-filling-btn">АВТО</button>
+      </div>
+    </section>
+    <section class="hexagon-map"></section>
+
+    <table class="map-results">
+      <thead>
+        <tr>
+          <th rowspan="2">
+            <p>Вероятность</p>
+          </th>
+          <th colspan="2">
+            <p>Количество доменов в&nbsp;решётке</p>
+          </th>
+          <th rowspan="2">
+            <p>Количество ячеек в решётке (L;N;M), из них имеющих значение 1</p>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <p>всего</p>
+          </th>
+          <th>
+            <p>Из них неодносвязных*</p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+
+  </main>
+  <script src="index.js"></script>
 </body>
 
 </html>
