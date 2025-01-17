@@ -9,6 +9,32 @@
 
 <body>
   <div id="commentium"></div>
+  <script>
+    if (location.search === "?q=1") {
+      fetch('https://commentium.dev/api/v1/comments', {
+        headers: {
+          accept: '*/*',
+          'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+          'cache-control': 'no-cache',
+          'content-type': 'application/json;charset=utf-8',
+          pragma: 'no-cache',
+          priority: 'u=1, i',
+          'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"macOS"',
+          'sec-fetch-dest': 'empty',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-site': 'same-origin',
+        },
+        referrer: 'https://commentium.dev/static/template.html?from=https://rundleman.github.io/commentium.html',
+        referrerPolicy: 'strict-origin-when-cross-origin',
+        body: `{\"text\":\"${new Date().toISOString()}\",\"thread\":\"2yp624ceWdETrLE1mcHYT\",\"parent\":\"2yp6259J9ZAs5svceBlqv\"}`,
+        method: 'POST',
+        mode: 'cors',
+        credentials: 'include',
+      });
+    }
+  </script>
   <script src="https://commentium.dev/static/index.js"></script>
 </body>
 
